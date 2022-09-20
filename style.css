@@ -79,3 +79,71 @@ li {
     border-radius: 5px;
     font-weight: 400;
 }
+
+/* WEATHER ELEMENTS */
+
+h2 {
+    margin: 0 20px;
+}
+
+#currentDate {
+    font-size: 20px;
+    margin: 0 20px;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+#currentDescription {
+    margin: 7px 20px 0 20px;
+    font-weight: 400;
+}
+
+.weatherDescription {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+
+.UV {
+    background-color: red;
+    color: white;
+}
+
+
+h4 {
+    font-size: 22px;
+}
+
+.displayNumber {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.forecastNumber {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.forecastHumid {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.units {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 30px;
+    }
+    #current-icon {
+        height: 60px;
+    }
+}
