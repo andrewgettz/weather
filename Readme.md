@@ -1,4 +1,4 @@
-#Server-Side APIs: Weather DashBoard 
+# Server-Side APIs: Weather DashBoard 
 
 ### Overview 
 This weather dashboard runs in the browser and features dynamically updated HTML and CSS. The dasboard also Features data from a third-party API. 
